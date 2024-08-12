@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4ECC61862C661B02008BB4DF /* AmeriCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC61852C661B02008BB4DF /* AmeriCountApp.swift */; };
-		4ECC61882C661B02008BB4DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC61872C661B02008BB4DF /* ContentView.swift */; };
 		4ECC618A2C661B03008BB4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC61892C661B03008BB4DF /* Assets.xcassets */; };
 		4ECC618D2C661B03008BB4DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC618C2C661B03008BB4DF /* Preview Assets.xcassets */; };
 		4ECC61972C661B03008BB4DF /* AmeriCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC61962C661B03008BB4DF /* AmeriCountTests.swift */; };
 		4ECC61A12C661B03008BB4DF /* AmeriCountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC61A02C661B03008BB4DF /* AmeriCountUITests.swift */; };
 		4ECC61A32C661B03008BB4DF /* AmeriCountUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC61A22C661B03008BB4DF /* AmeriCountUITestsLaunchTests.swift */; };
+		4ECC61BB2C6620B4008BB4DF /* NationalPopulationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC61BA2C6620B4008BB4DF /* NationalPopulationVM.swift */; };
+		4ECC61C12C6621A2008BB4DF /* StatePopulationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC61C02C6621A2008BB4DF /* StatePopulationVM.swift */; };
+		4ECC61C92C66233C008BB4DF /* NationalPopulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC61C82C66233C008BB4DF /* NationalPopulationView.swift */; };
+		4ECC61CB2C66238E008BB4DF /* StatePopulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC61CA2C66238E008BB4DF /* StatePopulationView.swift */; };
+		4ECC61CD2C6623E5008BB4DF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC61CC2C6623E5008BB4DF /* MainView.swift */; };
+		4ECC61DF2C67FF46008BB4DF /* api in Frameworks */ = {isa = PBXBuildFile; productRef = 4ECC61DE2C67FF46008BB4DF /* api */; };
+		4EDDA8AD2C6A74E1003A26B4 /* StateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDA8AC2C6A74E1003A26B4 /* StateDetailView.swift */; };
+		4EDDA8AF2C6A7E1B003A26B4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDA8AE2C6A7E1B003A26B4 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		4ECC61822C661B02008BB4DF /* AmeriCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmeriCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECC61852C661B02008BB4DF /* AmeriCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeriCountApp.swift; sourceTree = "<group>"; };
-		4ECC61872C661B02008BB4DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4ECC61892C661B03008BB4DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ECC618C2C661B03008BB4DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4ECC61922C661B03008BB4DF /* AmeriCountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmeriCountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,14 @@
 		4ECC619C2C661B03008BB4DF /* AmeriCountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmeriCountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECC61A02C661B03008BB4DF /* AmeriCountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeriCountUITests.swift; sourceTree = "<group>"; };
 		4ECC61A22C661B03008BB4DF /* AmeriCountUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeriCountUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4ECC61BA2C6620B4008BB4DF /* NationalPopulationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalPopulationVM.swift; sourceTree = "<group>"; };
+		4ECC61C02C6621A2008BB4DF /* StatePopulationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePopulationVM.swift; sourceTree = "<group>"; };
+		4ECC61C82C66233C008BB4DF /* NationalPopulationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalPopulationView.swift; sourceTree = "<group>"; };
+		4ECC61CA2C66238E008BB4DF /* StatePopulationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePopulationView.swift; sourceTree = "<group>"; };
+		4ECC61CC2C6623E5008BB4DF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4ECC61DC2C67FF30008BB4DF /* api */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = api; sourceTree = "<group>"; };
+		4EDDA8AC2C6A74E1003A26B4 /* StateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetailView.swift; sourceTree = "<group>"; };
+		4EDDA8AE2C6A7E1B003A26B4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ECC61DF2C67FF46008BB4DF /* api in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,10 +89,12 @@
 		4ECC61792C661B02008BB4DF = {
 			isa = PBXGroup;
 			children = (
+				4ECC61DC2C67FF30008BB4DF /* api */,
 				4ECC61842C661B02008BB4DF /* AmeriCount */,
 				4ECC61952C661B03008BB4DF /* AmeriCountTests */,
 				4ECC619F2C661B03008BB4DF /* AmeriCountUITests */,
 				4ECC61832C661B02008BB4DF /* Products */,
+				4ECC61DD2C67FF46008BB4DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +112,10 @@
 			isa = PBXGroup;
 			children = (
 				4ECC61852C661B02008BB4DF /* AmeriCountApp.swift */,
-				4ECC61872C661B02008BB4DF /* ContentView.swift */,
+				4ECC61CC2C6623E5008BB4DF /* MainView.swift */,
+				4ECC61E02C6A26AC008BB4DF /* NationalPopulation */,
+				4ECC61E12C6A26E3008BB4DF /* StatePopulation */,
+				4ECC61B42C661FA2008BB4DF /* Utils */,
 				4ECC61892C661B03008BB4DF /* Assets.xcassets */,
 				4ECC618B2C661B03008BB4DF /* Preview Content */,
 			);
@@ -127,6 +147,72 @@
 			path = AmeriCountUITests;
 			sourceTree = "<group>";
 		};
+		4ECC61B42C661FA2008BB4DF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4EDDA8AE2C6A7E1B003A26B4 /* SearchBar.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4ECC61DD2C67FF46008BB4DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ECC61E02C6A26AC008BB4DF /* NationalPopulation */ = {
+			isa = PBXGroup;
+			children = (
+				4ECC61E22C6A2739008BB4DF /* View */,
+				4ECC61E32C6A2745008BB4DF /* Viewmodel */,
+			);
+			path = NationalPopulation;
+			sourceTree = "<group>";
+		};
+		4ECC61E12C6A26E3008BB4DF /* StatePopulation */ = {
+			isa = PBXGroup;
+			children = (
+				4ECC61E72C6A2788008BB4DF /* View */,
+				4ECC61E62C6A277F008BB4DF /* Viewmodel */,
+			);
+			path = StatePopulation;
+			sourceTree = "<group>";
+		};
+		4ECC61E22C6A2739008BB4DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4ECC61C82C66233C008BB4DF /* NationalPopulationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4ECC61E32C6A2745008BB4DF /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				4ECC61BA2C6620B4008BB4DF /* NationalPopulationVM.swift */,
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		4ECC61E62C6A277F008BB4DF /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				4ECC61C02C6621A2008BB4DF /* StatePopulationVM.swift */,
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		4ECC61E72C6A2788008BB4DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4EDDA8AC2C6A74E1003A26B4 /* StateDetailView.swift */,
+				4ECC61CA2C66238E008BB4DF /* StatePopulationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +229,9 @@
 			dependencies = (
 			);
 			name = AmeriCount;
+			packageProductDependencies = (
+				4ECC61DE2C67FF46008BB4DF /* api */,
+			);
 			productName = AmeriCount;
 			productReference = 4ECC61822C661B02008BB4DF /* AmeriCount.app */;
 			productType = "com.apple.product-type.application";
@@ -257,7 +346,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ECC61882C661B02008BB4DF /* ContentView.swift in Sources */,
+				4ECC61CB2C66238E008BB4DF /* StatePopulationView.swift in Sources */,
+				4ECC61C12C6621A2008BB4DF /* StatePopulationVM.swift in Sources */,
+				4EDDA8AD2C6A74E1003A26B4 /* StateDetailView.swift in Sources */,
+				4ECC61C92C66233C008BB4DF /* NationalPopulationView.swift in Sources */,
+				4ECC61CD2C6623E5008BB4DF /* MainView.swift in Sources */,
+				4ECC61BB2C6620B4008BB4DF /* NationalPopulationVM.swift in Sources */,
+				4EDDA8AF2C6A7E1B003A26B4 /* SearchBar.swift in Sources */,
 				4ECC61862C661B02008BB4DF /* AmeriCountApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +683,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4ECC61DE2C67FF46008BB4DF /* api */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = api;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4ECC617A2C661B02008BB4DF /* Project object */;
 }
